@@ -44,6 +44,7 @@ header{
 
     margin-bottom: 10px;
     margin-left: 10px;
+    display: inline-flex;
 
 }
 
@@ -893,3 +894,559 @@ h3:hover{
     color: gray;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1360px){
+
+
+
+
+    /* Navbar */
+
+
+
+    .opciones{
+        margin-left: 0%;
+        margin-top: 100px;
+    }
+
+    ul > li{
+        margin-right: 30px;
+    }
+
+    .actions {
+        margin-left: 72%;    
+    }
+
+    .actions > *{
+        margin-top: 10px;  
+    }
+
+
+    /* Main */
+
+
+    .informacion{
+        width: 500px;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .video-principal{
+        margin-left: 45%;
+        margin-top: 100px;
+    }
+
+
+
+    /* Logotipos */
+
+
+    .logotipos{
+        margin-top: 300px;
+        width: 100%;
+        height: 300px;
+        margin-left: -20px;
+    }
+
+    .logos > *{
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+
+
+
+    /* Features */ 
+
+
+
+    .titulo_top{
+        width: 700px;
+        margin-left: 23%;
+    }
+    .carta-uno{
+        width: 300px;
+    }
+    .carta-dos{
+        width: 300px;
+    }
+    .carta-tres{
+        width: 300px;
+    }
+
+
+
+
+    /* Tools  */ 
+
+
+
+    .texto-m{
+        font-size: 40px;
+    }
+    
+    .cartas-2{
+        display: inline-block;
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+    .carta1{
+        padding: 40px 18px;
+        width: 400px;
+        height: 400px;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+    .carta2{
+        padding: 40px 18px;
+        width: 400px;
+        height: 400px;
+        margin-left: 580px;
+        margin-bottom: 50px;
+        margin-top: -450px;
+    }
+    .carta3{
+        padding: 40px 18px;
+        width: 400px;
+        height: 400px;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+    .carta4{
+        padding: 40px 18px;
+        width: 400px;
+        height: 400px;
+        margin-left: 580px;
+        margin-bottom: 50px;
+        margin-top: -450px;
+    }
+
+
+
+
+    /* Footer */ 
+
+
+    
+    .get{
+        width: 500px;
+    }
+    .derecha-texto{
+        margin: 150px;
+        margin-top: 140px;
+        margin-left: -50px;
+    }
+
+
+
+
+    /* Formulario */ 
+
+
+    .formulario{
+       margin-left: 90px;
+    }
+    .final{
+        margin-left: 70%;
+        margin-top: -220px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 980px) {
+
+
+        /* Navbar */
+
+
+
+        .opciones{
+            margin-left: 12%;
+            margin-top: 120px;
+        }
+    
+        ul > li{
+            margin-right: 30px;
+        }
+    
+        .actions {
+            margin-left: 60%;    
+        }
+    
+        .actions > *{
+            margin-top: 10px;  
+        }
+    
+    
+        /* Main */
+    
+    
+        .informacion{
+            width: 1000px;
+            margin-left: 120px;
+            margin-top: 150px;
+            margin-right: 150px;
+            text-align: center;
+        }
+    
+        .video-principal{
+            margin-left: 0%;
+            margin-top: 1500px;
+        }
+    
+    
+    
+        /* Logotipos */
+    
+    
+        .logotipos{
+            margin-top: 900px;
+            width: 100%;
+            height: 300px;
+            margin-left: -60px;
+        }
+    
+        .logos > *{
+            margin-right: 50px;
+            margin-bottom: 50px;
+            margin-left: 50px;
+        }
+    
+    
+    
+        /* Features */ 
+    
+    
+    
+        .titulo_top{
+            width: 700px;
+            margin-left: 10%;
+            margin-top: 200px;
+        }
+        .cartas {
+
+            margin-top: 100px;
+            margin-bottom: 150px;
+            justify-content: center;
+        
+        
+            display: grid;
+            grid-gap: 150px;
+            grid-template-areas: 
+            
+            "uno"
+            "dos"
+            "tres"
+            
+            
+            ;
+        
+        }
+        .carta-uno{
+            width: 400px;
+        }
+        .carta-dos{
+            width: 400px;
+        }
+        .carta-tres{
+            width: 400px;
+        }
+    
+    
+    
+    
+        /* Tools  */ 
+    
+    
+    
+        .texto-m{
+            font-size: 50px;
+            margin-left: 100px;
+            margin-right: 50px;
+        }
+        
+        .cartas-2{
+            display: inline-block;
+            margin-left: 80px;
+            margin-right: 40px;
+        }
+        .carta1{
+            padding: 40px 18px;
+            width: 400px;
+            height: 400px;
+            margin-left: 160px;
+            margin-bottom: 50px;
+        }
+        .carta2{
+            padding: 40px 18px;
+            width: 400px;
+            height: 400px;
+            margin-left: 160px;
+            margin-bottom: 50px;
+            margin-top: 100px;
+        }
+        .carta3{
+            padding: 40px 18px;
+            width: 400px;
+            height: 400px;
+            margin-left: 160px;
+            margin-bottom: 50px;
+            margin-top: 100px;
+        }
+        .carta4{
+            padding: 40px 18px;
+            width: 400px;
+            height: 400px;
+            margin-left: 160px;
+            margin-bottom: 50px;
+            margin-top: 100px;
+        }
+    
+    
+    
+    
+        /* Footer */ 
+    
+    
+        
+        .get{
+            width: 500px;
+        }
+        .derecha-texto{
+            margin: 150px;
+            margin-top: 400px;
+            margin-left: -600px;
+        }
+    
+    
+    
+    
+        /* Formulario */ 
+    
+    
+        .formulario{
+           margin-left: 90px;
+        }
+        .final{
+            margin-left: 60%;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+    
+  }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+
+
+        /* Navbar */
+
+
+
+        .opciones{
+            margin-left: 0%;
+            margin-top: 120px;
+        }
+    
+        ul > li{
+            margin-right: 30px;
+        }
+    
+        .actions {
+            margin-left: 50%;    
+        }
+    
+        .actions > *{
+            margin-top: 5px;  
+        }
+    
+    
+        /* Main */
+    
+    
+        .informacion{
+            width: 1000px;
+            margin-left: 100px;
+            margin-top: 150px;
+            margin-right: 100px;
+            text-align: center;
+        }
+    
+        .video-principal{
+            margin-left: 0%;
+            margin-top: 2000px;
+        }
+    
+    
+    
+        /* Logotipos */
+    
+    
+        .logotipos{
+            margin-top: 1100px;
+            width: 100%;
+            height: 300px;
+            margin-left: -100px;
+        }
+    
+        .logos > *{
+            margin-right: 50px;
+            margin-bottom: 100px;
+            margin-left: 230px;
+            margin-top: 50px;
+        }
+    
+    
+    
+        /* Features */ 
+    
+    
+    
+        .titulo_top{
+            width: 500px;
+            margin-left: 7%;
+            margin-top: 1200px;
+        }
+        .cartas {
+
+            margin-top: 100px;
+            margin-bottom: 150px;
+            justify-content: center;
+        
+        
+            display: grid;
+            grid-gap: 150px;
+            grid-template-areas: 
+            
+            "uno"
+            "dos"
+            "tres"
+            
+            
+            ;
+        
+        }
+        .carta-uno{
+            width: 400px;
+        }
+        .carta-dos{
+            width: 400px;
+        }
+        .carta-tres{
+            width: 400px;
+        }
+    
+    
+    
+    
+        /* Tools  */ 
+    
+    
+    
+        .texto-m{
+            font-size: 50px;
+            margin-left: 100px;
+            margin-right: 50px;
+        }
+        
+        .cartas-2{
+            display: inline-block;
+            margin-left: -70px;
+            margin-right: 40px;
+        }
+        .carta1{
+            padding: 40px 18px;
+            width: 400px;
+            height: 400px;
+            margin-left: 160px;
+            margin-bottom: 50px;
+        }
+        .carta2{
+            padding: 40px 18px;
+            width: 400px;
+            height: 400px;
+            margin-left: 160px;
+            margin-bottom: 50px;
+            margin-top: 100px;
+        }
+        .carta3{
+            padding: 40px 18px;
+            width: 400px;
+            height: 400px;
+            margin-left: 160px;
+            margin-bottom: 50px;
+            margin-top: 100px;
+        }
+        .carta4{
+            padding: 40px 18px;
+            width: 400px;
+            height: 400px;
+            margin-left: 160px;
+            margin-bottom: 50px;
+            margin-top: 100px;
+        }
+    
+    
+    
+    
+        /* Footer */ 
+    
+    
+        
+        .get{
+            width: 400px;
+            margin-left: -60px;
+        }
+        .derecha-texto{
+            margin: 150px;
+            margin-top: 400px;
+            margin-left: -500px;
+        }
+    
+    
+    
+    
+        /* Formulario */ 
+    
+    
+        .formulario{
+           margin-left: 50px;
+           margin-right: 50px;
+        }
+        .final{
+            margin-left: 30%;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+    
+  }
